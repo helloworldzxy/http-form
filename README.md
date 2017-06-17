@@ -16,7 +16,8 @@
 `req.url`: 主机名后的所有内容
 `req.method`: HTTP/1.1协议定义的方法：GET（默认）,POST,PUT,DELETE,PATCH。
 
-
 3. print req content-type
 
 不仅响应头有`Content-Type`属性，请求头也有：`req.headers['content-type']`。
+
+4. querystring
