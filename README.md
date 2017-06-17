@@ -21,3 +21,10 @@
 不仅响应头有`Content-Type`属性，请求头也有：`req.headers['content-type']`。
 
 4. querystring
+
+解析body中的input框内容。
+
+5. robust programming
+
+检测到url不在匹配范围内时返回404信息。
+
